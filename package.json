@@ -3,6 +3,7 @@
   "displayName": "djappets",
   "description": "Snippets for Python Django",
   "publisher": "haudraufhaun",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/HAUDRAUFHAUN/djappets"
