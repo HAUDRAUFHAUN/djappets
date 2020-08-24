@@ -1,0 +1,29 @@
+{
+  "name": "djappets",
+  "displayName": "djappets",
+  "description": "Snippets for Python Django",
+  "publisher": "haudraufhaun",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HAUDRAUFHAUN/djappets"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/python-snippets.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html-snippets.code-snippets"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "For Loop": {
+    "prefix": "!djfor",
+    "body": ["{% for ${1:ObjectName} in ${2:QuerySet} %}", "$0", "{% endfor %}"]
+  },
+  "Block": {
+    "prefix": "!djblock",
+    "body": [
+      "{% block ${1:BlockName}  %}",
+      "$0",
+      "{% endblock ${1:BlockName} %}"
+    ]
+  }
+}
