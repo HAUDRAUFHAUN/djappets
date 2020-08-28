@@ -19,11 +19,11 @@
     "snippets": [
       {
         "language": "python",
-        "path": "./snippets/python-snippets.code-snippets"
+        "path": "./snippets/python/python-snippets.code-snippets"
       },
       {
         "language": "html",
-        "path": "./snippets/html-snippets.code-snippets"
+        "path": "./snippets/html/html-snippets.code-snippets"
       }
     ]
   }
