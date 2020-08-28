@@ -1,0 +1,31 @@
+{
+  "Render View Template": {
+    "prefix": "!djrview",
+    "body": [
+      "def ${1:Name} (request):",
+      "   return render(request, '${2:Template}')'"
+    ],
+    "description": "Creates a standard Django View Thats going to render a HTML Template"
+  },
+  "Model Template": {
+    "prefix": "!djmodel",
+    "body": [
+      "class ${1:Name} (models.Model):",
+      "$0",
+      "   Class Meta:",
+      "       # Meta Definition for ${1:Name} Model",
+      "       verbose_name_plural = '${1:Name}s'"
+    ],
+    "description": "Creates a Django Model with Meta Definition"
+  },
+  "Form Template": {
+    "prefix": "!djform",
+    "body": [
+      "class ${1:Name} (forms.form):",
+      "$0",
+      "   Class Meta:",
+      "       # Meta Definition for ${1:Name} Form",
+    ],
+    "description": "Creates a Django Form with Meta Definition"
+  },
+}

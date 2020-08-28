@@ -3,6 +3,10 @@
     "prefix": "!djfor",
     "body": ["{% for ${1:ObjectName} in ${2:QuerySet} %}", "$0", "{% endfor %}"]
   },
+  "If Statement": {
+    "prefix": "!djif",
+    "body": ["{% for ${1:Condition} %}", "$0", "{% endif %}"]
+  },
   "Block": {
     "prefix": "!djblock",
     "body": [
