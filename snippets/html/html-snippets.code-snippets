@@ -1,14 +1,18 @@
 {
   "For Loop": {
-    "prefix": "!djfor",
+    "prefix": "djfor",
     "body": ["{% for ${1:ObjectName} in ${2:QuerySet} %}", "$0", "{% endfor %}"]
   },
   "If Statement": {
-    "prefix": "!djif",
-    "body": ["{% for ${1:Condition} %}", "$0", "{% endif %}"]
+    "prefix": "djif",
+    "body": ["{% if ${1:Condition} %}", "$0", "{% endif %}"]
+  },
+  "If-Else Statement": {
+    "prefix": "djifelse",
+    "body": ["{% if ${1:Condition} %}", "$0", "{% else %}", "$0", "{% endif %}"]
   },
   "Block": {
-    "prefix": "!djblock",
+    "prefix": "djblock",
     "body": [
       "{% block ${1:BlockName}  %}",
       "$0",
