@@ -10,7 +10,7 @@
   "Model Template": {
     "prefix": "!djmodel",
     "body": [
-      "class ${1:Name} (models.Model):",
+      "class ${1:Name}(models.Model):",
       "$0",
       "   Class Meta:",
       "       # Meta Definition for ${1:Name} Model",
@@ -21,7 +21,7 @@
   "Form Template": {
     "prefix": "!djform",
     "body": [
-      "class ${1:Name} (forms.form):",
+      "class ${1:Name}(forms.form):",
       "$0",
       "   Class Meta:",
       "       # Meta Definition for ${1:Name} Form",
